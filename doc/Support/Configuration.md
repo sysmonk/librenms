@@ -239,10 +239,10 @@ $config['addhost_alwayscheckip']   = false; #true - check for duplicate ips even
                                             #false- only check when adding host by ip.
 ```
 
-By default we allow hosts to be added with duplicate sysName's, you can disable this with the following config:
+By default we do not allow hosts to be added with duplicate sysName's, you can enable this with the following config:
 
 ```php
-$config['allow_duplicate_sysName'] = false;
+$config['allow_duplicate_sysName'] = true;
 ```
 
 #### SNMP Settings
